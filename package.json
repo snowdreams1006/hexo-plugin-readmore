@@ -1,6 +1,6 @@
 {
   "name": "hexo-plugin-readmore",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/snowdreams1006/hexo-plugin-readmore/issues"
   },

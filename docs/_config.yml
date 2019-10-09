@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://snowdreams1006.github.io/hexo-plugin-readmore/
-root: /
+url: https://snowdreams1006.github.io/hexo-plugin-readmore
+root: /hexo-plugin-readmore/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 

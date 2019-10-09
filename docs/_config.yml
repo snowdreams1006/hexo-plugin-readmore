@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language: en
-timezone:
+title: readmore 插件官方文档
+subtitle: hexo-plugin-readmore 插件官方文档
+description: hexo-plugin-readmore 插件官方文档
+keywords: hexo-plugin-readmore,gitbook-plugin-readmore,gitbook-plugin-openwrite,readmore,openwrite
+author: snowdreams1006
+language: zh-CN 
+timezone: Asia/Shanghai 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

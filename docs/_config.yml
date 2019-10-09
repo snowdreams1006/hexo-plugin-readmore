@@ -15,8 +15,8 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://snowdreams1006.github.io/hexo-plugin-readmore
 root: /hexo-plugin-readmore/
-# permalink: :year/:month/:day/:title/
-permalink: posts/:abbrlink/
+permalink: :year/:month/:day/:title/
+# permalink: posts/:abbrlink/
 permalink_defaults:
 
 # Directory
@@ -80,11 +80,6 @@ plugins:
     qrcode: https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg
     keyword: vip
 
-# abbrlink config
-abbrlink:
-  alg: crc32  #support crc16(default) and crc32
-  rep: hex    #support dec(default) and hex
-  
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
@@ -92,6 +87,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 
-
 
 

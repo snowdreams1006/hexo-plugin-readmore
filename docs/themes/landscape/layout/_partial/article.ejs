@@ -47,7 +47,9 @@
 
 <script src="https://my.openwrite.cn/js/readmore.js" type="text/javascript"></script>
 <script>
-    const btw = new BTWPlugin();
+var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+if (!isMobile) {
+    var btw = new BTWPlugin();
     btw.init({
         id: 'vip-container',
         blogId: '15702-1569305559839-744',
@@ -55,4 +57,5 @@
         qrcode: 'https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg',
         keyword: 'vip'
     });
+}
 </script>

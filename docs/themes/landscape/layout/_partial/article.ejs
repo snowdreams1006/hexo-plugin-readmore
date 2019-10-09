@@ -51,11 +51,14 @@ var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|An
 if (!isMobile) {
     var btw = new BTWPlugin();
     btw.init({
-        id: 'vip-container',
-        blogId: '15702-1569305559839-744',
-        name: '雪之梦技术驿站',
-        qrcode: 'https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg',
-        keyword: 'vip'
+        "id": "vip-container",
+        "blogId": "<%= config.plugins.readmore.blogId %>",
+        "name": "<%= config.plugins.readmore.name %>",
+        "qrcode": "<%= config.plugins.readmore.qrcode %>",
+        "keyword": "<%= config.plugins.readmore.keyword %>"
     });
 }
 </script>
+
+
+

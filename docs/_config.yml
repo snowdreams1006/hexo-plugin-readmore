@@ -72,6 +72,13 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins:
+  readmore:
+    blogId: 15702-1569305559839-744
+    name: 雪之梦技术驿站
+    qrcode: https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg
+    keyword: vip
+
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
@@ -79,4 +86,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 
+
+
 

@@ -1,5 +1,5 @@
 {
-  "name": "hexo-plugin-readmore 插件官方文档",
+  "name": "hexo-plugin-readmore",
   "version": "0.0.1",
   "scripts": {
     "build": "hexo generate",

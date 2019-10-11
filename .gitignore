@@ -6,43 +6,16 @@
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
-
-# Book build output
-_book
-
-# eBook build output
-*.epub
-*.mobi
-*.pdf
-
 # package-lock.json
 package-lock.json
 
 ## Dependency directory
 docs/node_modules
-
-# Book build output
-docs/_book
-
-# eBook build output
-docs/*.epub
-docs/*.mobi
-docs/*.pdf
+docs/public
 
 ## Dependency directory
 example/node_modules
-
-# Book build output
-example/_book
-
-# eBook build output
-example/*.epub
-example/*.mobi
-example/*.pdf
+example/public
 
 ### macOS ###
 # General

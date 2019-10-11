@@ -1,20 +1,29 @@
 {
   "name": "hexo-plugin-readmore",
   "version": "0.0.4",
-  "description": "",
+  "description": "Hexo 整合 OpenWrite 平台的 readmore 插件,实现博客的每一篇文章自动增加阅读更多效果,关注公众号后方可解锁全站文章,从而实现博客流量导流到微信公众号粉丝目的.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/snowdreams1006/hexo-plugin-readmore.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "hexo-plugin-readmore",
+    "gitbook-plugin-readmore",
+    "gitbook-plugin-openwrite",
+    "readmore",
+    "openwrite",
+    "vip",
+    "github",
+    "opensource"
+  ],
+  "author": {
+    "name": "snowdreams1006",
+    "email": "snowdreams1006@163.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/snowdreams1006/hexo-plugin-readmore/issues"
   },
-  "homepage": "https://github.com/snowdreams1006/hexo-plugin-readmore#readme"
+  "homepage": "https://snowdreams1006.github.io/hexo-plugin-readmore/"
 }

@@ -1,3 +1,9 @@
+---
+title: index
+date: 2019-10-11 11:47:52
+tags:
+---
+
 # 欢迎访问 hexo-plugin-readmore 官网 👋
 
 [![npm:version](https://img.shields.io/npm/v/hexo-plugin-readmore.svg)](https://www.npmjs.com/package/hexo-plugin-readmore)
@@ -14,7 +20,7 @@
 
 ## 效果
 
-![readmore-use-preview.png](readmore-use-preview.png)
+![readmore-use-preview.png](../images/readmore-use-preview.png)
 
 ## 用法
 

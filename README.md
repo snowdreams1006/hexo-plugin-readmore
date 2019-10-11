@@ -42,10 +42,10 @@ plugins:
 
 ### Step #2 - 运行 hexo 相关命令
 
-- 运行 `npm install hexo-plugin-readmore` 命令安装到本地项目
+- 运行 `npm install` 命令安装到本地项目
 
 ```bash
-$ npm install hexo-plugin-readmore
+$ npm install hexo-plugin-readmore --save
 ```
 
 - 运行 `hexo generate` 命令构建本地项目或者 `hexo server` 启动本地服务.

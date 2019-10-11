@@ -16,7 +16,6 @@ timezone: Asia/Shanghai
 url: https://snowdreams1006.github.io/hexo-plugin-readmore
 root: /hexo-plugin-readmore/
 permalink: :year/:month/:day/:title/
-# permalink: posts/:abbrlink/
 permalink_defaults:
 
 # Directory

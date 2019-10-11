@@ -5,10 +5,6 @@ abbrlink: 16107
 
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Test
-
-
-
 ## Reference
 
 - [Hexo配置和部署](https://my.oschina.net/u/2935389/blog/754615)

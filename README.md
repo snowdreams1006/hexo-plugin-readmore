@@ -20,8 +20,7 @@
 
 ### Step #1 - 更新 `_config.yml` 配置文件
 
-1. 在 `book.json` 配置文件中,添加 `readmore` 到 `plugins` 列表.
-2. 在 `book.json` 配置文件中,配置 `pluginsConfig` 对象.
+在 `_config.yml` 配置文件中,配置 `readmore` 插件相关信息,详情见 [OpenWrite 微信公众号增长神器 "ReadMore" 简介](https://openwrite.cn/openwrite/openwrite-readmore/).
 
 ```yml
 plugins:
@@ -31,6 +30,8 @@ plugins:
     qrcode: https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg
     keyword: vip
 ```
+
+> 注意: 后台申请开通 `readmore` 功能后,一定要替换成自己的相关配置!
 
 其中,配置参数含义如下: 
 

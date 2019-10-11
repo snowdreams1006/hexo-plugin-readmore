@@ -14,8 +14,11 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 - [为Hexo添加Gitalk评论插件](https://segmentfault.com/a/1190000014085547)
 - [Gitment/Gitalk自动初始化](https://madordie.github.io/post/blog-gitment-auto-setup/)
 - [自动初始化 Gitalk 和 Gitment 评论](https://draveness.me/git-comments-initialize)
-
-
+- [Hexo+NexT（六）：手把手教你编写一个Hexo过滤器插件](https://www.cnblogs.com/guide2it/p/11111715.html)
+- [GitHub+Hexo搭建个人博客（四）Hexo高阶之第三方插件](https://www.jianshu.com/p/dda25ffcfd43)
+- [搭建Hexo博客进阶篇--API和一些小部件（四）](https://segmentfault.com/a/1190000009478837)
+- [Hexo高级教程之插件开发](https://blog.csdn.net/melordljm/article/details/51985157)
+- [Hexo主题开发](https://www.cnblogs.com/yyhh/p/11058985.html?clicktime=1570634105&enterid=1570634105)
 ## Quick Start
 
 ### Create a new post

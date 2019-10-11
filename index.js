@@ -1,19 +1,19 @@
-hexo.extend.filter.register('before_post_render', function(data){
-  console.log('before_post_render');
+hexo.extend.filter.register('before_post_render', function(data) {
+	console.log('before_post_render:' + data);
 
-  data.title = data.title.toLowerCase();
+	// data.title = data.title.toLowerCase();
 
-  console.log(`before_post_render=${data}`);
+	// console.log(`before_post_render=${data}`);
 
-  return data;
+	// return data;
 });
 
-hexo.extend.filter.register('after_post_render', function(data){
-  console.log('after_post_render');
-  
-  data.content = data.content.replace(/@(\d+)/, '<a href="http://twitter.com/$1">#$1</a>');
+hexo.extend.filter.register('after_post_render', function(data) {
+	console.log('after_post_render:' + data);
 
-  console.log(`after_post_render=${data}`);
+	// data.content = data.content.replace(/@(\d+)/, '<a href="http://twitter.com/$1">#$1</a>');
 
-  return data;
+	// console.log(`after_post_render=${data}`);
+
+	// return data;
 });

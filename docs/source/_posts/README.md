@@ -20,7 +20,7 @@ tags:
 
 ## 效果
 
-![readmore-use-preview.png](../images/readmore-use-preview.png)
+![readmore-use-preview.png](https://snowdreams1006.github.io/hexo-plugin-readmore/readmore-use-preview.png)
 
 ## 用法
 

@@ -31,7 +31,7 @@ plugins:
     keyword: vip
 ```
 
-> 注意: 后台申请开通 `readmore` 功能后,一定要替换成自己的相关配置!
+> 注意: 前往 [OpenWrite](https://openwrite.cn/) 后台申请开通 `readmore` 功能后,**一定要替换成自己的相关配置**!
 
 其中,配置参数含义如下: 
 

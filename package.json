@@ -1,6 +1,6 @@
 {
   "name": "hexo-plugin-gitalk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "hexo-plugin-gitalk is a comment plugin based on gitalk",
   "main": "index.js",
   "repository": {
@@ -29,4 +29,3 @@
   },
   "homepage": "https://snowdreams1006.github.io/hexo-plugin-gitalk/"
 }
-

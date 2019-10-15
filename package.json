@@ -1,21 +1,23 @@
 {
-  "name": "hexo-plugin-readmore",
-  "version": "0.1.1",
-  "description": "Hexo 整合 OpenWrite 平台的 readmore 插件,实现博客的每一篇文章自动增加阅读更多效果,关注公众号后方可解锁全站文章,从而实现博客流量导流到微信公众号粉丝目的.",
+  "name": "hexo-plugin-gitalk",
+  "version": "0.0.2",
+  "description": "hexo-plugin-gitalk is a comment plugin based on gitalk",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snowdreams1006/hexo-plugin-readmore.git"
+    "url": "git+https://github.com/snowdreams1006/hexo-plugin-gitalk.git"
   },
   "keywords": [
-    "hexo-plugin-readmore",
-    "gitbook-plugin-readmore",
-    "gitbook-plugin-openwrite",
-    "readmore",
-    "openwrite",
-    "vip",
+    "hexo-plugin-gitalk",
+    "gitbook-plugin-mygitalk",
+    "mygitalk",
+    "gitalk",
+    "gitment",
+    "discuss",
+    "comment",
+    "issues",
     "github",
-    "opensource"
+    "gitbook"
   ],
   "author": {
     "name": "snowdreams1006",
@@ -23,7 +25,8 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/snowdreams1006/hexo-plugin-readmore/issues"
+    "url": "https://github.com/snowdreams1006/hexo-plugin-gitalk/issues"
   },
-  "homepage": "https://snowdreams1006.github.io/hexo-plugin-readmore/"
+  "homepage": "https://snowdreams1006.github.io/hexo-plugin-gitalk/"
 }
+

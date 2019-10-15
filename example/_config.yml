@@ -73,11 +73,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 plugins:
-  readmore:
-    blogId: 15702-1569305559839-744
-    name: 雪之梦技术驿站
-    qrcode: https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg
-    keyword: vip
+  gitalk:
+    clientID: 3f62415a283d19cbd696
+    clientSecret: aed0e1db0620bf5d0e3a3f0225f801997ad74e58
+    repo: hexo-plugin-gitalk
+    owner: snowdreams1006
+    admin: 
+      - snowdreams1006
+    distractionFreeMode: false
 
 ## Themes: https://hexo.io/themes/
 theme: landscape

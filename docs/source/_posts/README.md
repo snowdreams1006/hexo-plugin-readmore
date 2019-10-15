@@ -14,7 +14,7 @@ tags:
 [![github:snodreams1006](https://img.shields.io/badge/github-snowdreams1006-brightgreen.svg)](https://github.com/snowdreams1006)
 [![微信公众号:雪之梦技术驿站-brightgreen.svg](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E9%9B%AA%E4%B9%8B%E6%A2%A6%E6%8A%80%E6%9C%AF%E9%A9%BF%E7%AB%99-brightgreen.svg)](https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg)
 
-> Hexo 整合 OpenWrite 平台的 gitalk 插件,实现博客的每一篇文章自动增加阅读更多效果,关注公众号后方可解锁全站文章,从而实现博客流量导流到微信公众号粉丝目的.
+> Hexo 整合 gitalk 插件实现评论功能
 
 ### 🏠 [主页](https://github.com/snowdreams1006/hexo-plugin-gitalk#readme)
 
@@ -26,28 +26,129 @@ tags:
 
 ### Step #1 - 更新 `_config.yml` 配置文件
 
-在 `_config.yml` 配置文件中,配置 `gitalk` 插件相关信息,详情见 [OpenWrite 微信公众号增长神器 "gitalk" 简介](https://openwrite.cn/openwrite/openwrite-gitalk/).
+在 `_config.yml` 配置文件中,配置 `gitalk` 插件相关信息,详情见 [gitalk](https://github.com/gitalk/gitalk).
 
 ```yml
 plugins:
   gitalk:
-    clientID: 3f62415a283d19cbd696
-    clientSecret: aed0e1db0620bf5d0e3a3f0225f801997ad74e58
-    repo: hexo-plugin-gitalk
-    owner: snowdreams1006
+    clientID: GitHub Application Client ID
+    clientSecret: GitHub Application Client Secret
+    repo: GitHub repo
+    owner: GitHub repo owner
     admin: 
-      - snowdreams1006
+      - GitHub repo owner and collaborators, only these guys can initialize github issues
     distractionFreeMode: false
 ```
 
-> 注意: 前往 [OpenWrite](https://openwrite.cn/) 后台申请开通 `gitalk` 功能后,**一定要替换成自己的相关配置**!
+> 注意: 前往 [gitalk](https://github.com/gitalk/gitalk) 申请开通 `gitalk` 功能后,**一定要替换成自己的相关配置**!
 
 其中,配置参数含义如下: 
 
-- `blogId` : [必选]OpenWrite 后台申请的博客唯一标识,例如:15702-1569305559839-744
-- `name` : [必选]OpenWrite 后台申请的博客名称,例如:雪之梦技术驿站
-- `qrcode` : [必选]OpenWrite 后台申请的微信公众号二维码,例如:https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg
-- `keyword` : [必选]OpenWrite 后台申请的微信公众号后台回复关键字,例如:vip
+- **clientID** `String` 
+
+  **必须**. GitHub Application Client ID.
+
+- **clientSecret** `String` 
+
+  **必须**. GitHub Application Client Secret.
+
+- **repo** `String` 
+
+  **必须**. GitHub repository.
+
+- **owner** `String` 
+
+  **必须**. GitHub repository 所有者，可以是个人或者组织。
+
+- **admin** `Array` 
+
+  **必须**. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+
+- **id** `String` 
+  
+  Default: `location.href`.
+
+  页面的唯一标识。长度必须小于50。
+  
+- **number** `Number` 
+  
+  Default: `-1`.
+
+  页面的 issue ID 标识，若未定义`number`属性则会使用`id`进行定位。
+
+- **labels** `Array` 
+  
+  Default: `['Gitalk']`.
+
+  GitHub issue 的标签。
+
+- **title** `String` 
+  
+  Default: `document.title`.
+
+  GitHub issue 的标题。
+
+- **body** `String` 
+  
+  Default: `location.href + header.meta[description]`.
+
+  GitHub issue 的内容。
+
+- **language** `String` 
+  
+  Default: `navigator.language || navigator.userLanguage`.
+
+  设置语言，支持 [en, zh-CN, zh-TW]。
+
+- **perPage** `Number` 
+  
+  Default: `10`.
+
+  每次加载的数据大小，最多 100。
+
+- **distractionFreeMode** `Boolean` 
+  
+  Default: false。
+
+  类似Facebook评论框的全屏遮罩效果.
+
+- **pagerDirection** `String`
+
+  Default: 'last'
+
+  评论排序方式， `last`为按评论创建时间倒叙，`first`为按创建时间正序。
+
+- **createIssueManually** `Boolean` 
+  
+  Default: `false`.
+
+  如果当前页面没有相应的 isssue 且登录的用户属于 admin，则会自动创建 issue。如果设置为 `true`，则显示一个初始化页面，创建 issue 需要点击 `init` 按钮。
+
+- **proxy** `String` 
+
+  Default: `https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token`.
+
+   GitHub oauth 请求到反向代理，为了支持 CORS。 [为什么要这样?](https://github.com/isaacs/github/issues/330)
+
+- **flipMoveOptions** `Object` 
+  
+  Default:
+  ```js
+    {
+      staggerDelayBy: 150,
+      appearAnimation: 'accordionVertical',
+      enterAnimation: 'accordionVertical',
+      leaveAnimation: 'accordionVertical',
+    }
+  ```
+
+  评论列表的动画。 [参考](https://github.com/joshwcomeau/react-flip-move/blob/master/documentation/enter_leave_animations.md)
+
+- **enableHotKey** `Boolean` 
+  
+  Default: `true`.
+
+  启用快捷键(cmd|ctrl + enter) 提交评论.
 
 ### Step #2 - 运行 hexo 相关命令
 

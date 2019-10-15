@@ -1,7 +1,7 @@
 {
   "name": "hexo-plugin-gitalk",
   "version": "0.0.3",
-  "description": "hexo-plugin-gitalk is a comment plugin based on gitalk",
+  "description": "Hexo 整合 gitalk 插件实现评论功能",
   "main": "index.js",
   "repository": {
     "type": "git",

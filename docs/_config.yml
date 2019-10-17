@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: gitalk 插件官方文档
-subtitle: hexo-plugin-gitalk 
-description: hexo-plugin-gitalk 插件官方文档
-keywords: hexo-plugin-gitalk,gitbook-plugin-mygitalk,gitalk,gitment,discuss,comment,issues,github,hexo,gitbook
+title: readmore 插件官方文档
+subtitle: 快速整合 OpenWrite 平台提供的 readmore 公众号导流工具
+description: hexo-plugin-readmore 插件官方文档
+keywords: hexo-plugin-readmore,gitbook-plugin-readmore,gitbook-plugin-openwrite,readmore,openwrite
 author: snowdreams1006
-language: zh-CN 
-timezone: Asia/Shanghai 
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://snowdreams1006.github.io/hexo-plugin-gitalk
-root: /hexo-plugin-gitalk/
+url: https://snowdreams1006.github.io/hexo-plugin-readmore
+root: /hexo-plugin-readmore/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -73,14 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 plugins:
-  gitalk:
-    clientID: 3f62415a283d19cbd696
-    clientSecret: aed0e1db0620bf5d0e3a3f0225f801997ad74e58
-    repo: hexo-plugin-gitalk
-    owner: snowdreams1006
-    admin: 
-      - snowdreams1006
-    distractionFreeMode: false
+  readmore:
+    blogId: 15702-1569305559839-744
+    name: 雪之梦技术驿站
+    qrcode: https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg
+    keyword: vip
 
 ## Themes: https://hexo.io/themes/
 theme: landscape

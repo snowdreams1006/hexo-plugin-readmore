@@ -1,16 +1,22 @@
 hexo.extend.filter.register('after_post_render', function(data) {
-	var gitalkConfig = hexo.config.plugins.gitalk;
-	if (gitalkConfig) {
-		data.content = data.content + '\n<div id="gitalk-container"></div>';
+	var readmoreConfig = hexo.config.plugins.readmore;
+	if (readmoreConfig) {
+		data.content = '<div id="vip-container">' + data.content + '</div>';
 
 		var str = `
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-			<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+			<script src="https://my.openwrite.cn/js/readmore.js" type="text/javascript"></script>
 			<script>
-               var gitalk = new Gitalk(
-                   ${JSON.stringify(gitalkConfig)}
-               );
-               gitalk.render("gitalk-container");
+			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+			if (!isMobile) {
+			    var btw = new BTWPlugin();
+			    btw.init({
+			        "id": "vip-container",
+			        "blogId": "${readmoreConfig.blogId}",
+			        "name": "${readmoreConfig.name}",
+			        "qrcode": "${readmoreConfig.qrcode}",
+			        "keyword": "${readmoreConfig.keyword}"
+			    });
+			}
 			</script>
 		`;
 

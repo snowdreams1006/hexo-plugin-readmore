@@ -1,7 +1,6 @@
 # Created by https://www.gitignore.io/api/node,macos,windows,gitbook,sublimetext
 # Edit at https://www.gitignore.io/?templates=node,macos,windows,gitbook,sublimetext
 
-### GitBook ###
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt

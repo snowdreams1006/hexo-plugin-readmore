@@ -18,6 +18,10 @@ tags:
 
 ### 🏠 [主页](https://github.com/snowdreams1006/hexo-plugin-readmore#readme)
 
+- Github : [https://snowdreams1006.github.io/hexo-plugin-readmore/](https://snowdreams1006.github.io/hexo-plugin-readmore/)
+- Gitee : [https://snowdreams1006.gitee.io/hexo-plugin-readmore/](https://snowdreams1006.gitee.io/hexo-plugin-readmore/)
+- Gitlab : [https://snowdreams1006.gitlab.io/hexo-plugin-readmore/](https://snowdreams1006.gitlab.io/hexo-plugin-readmore/)
+
 ## 效果
 
 ![readmore-use-preview.png](https://raw.githubusercontent.com/snowdreams1006/hexo-plugin-readmore/master/readmore-use-preview.png)

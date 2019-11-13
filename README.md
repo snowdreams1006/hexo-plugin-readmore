@@ -29,10 +29,10 @@
 ```yml
 plugins:
   readmore:
-    blogId: 15702-1569305559839-744
-    name: 雪之梦技术驿站
-    qrcode: https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg
-    keyword: vip
+    blogId: 填写已申请的博客 id
+    name:  填写已申请的博客名称
+    qrcode: 填写已申请的公众号二维码链接
+    keyword: 填写已申请的公众号回复关键字
 ```
 
 > 注意: 前往 [OpenWrite](https://openwrite.cn/) 后台申请开通 `readmore` 功能后,**一定要替换成自己的相关配置**!
